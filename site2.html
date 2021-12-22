@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<meta charset="UTF-8">
+	<link rel = "stylesheet" type = "text/css" href = "estilo.css">
+	<title> La Casa della Pasta</title>
+
+<header class="titulo2">
+	<center>
+		<div class = "menu">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="produtos.html">Cardápio</a></li>
+				<li><a href="sobre.html">Sobre nós</a></li>
+				<li><a href="contatos.html">Contatos</a></li>
+				<li><a href="site2.html">Comprar</a></li>
+			</ul>
+		</div>
+	</center>
+</header>
+</head>
+<body>
+<form type="action.php" method="get">
+	<head>
+		<h1> Formulário </h1>
+	</head>
+
+	<body>
+		<fieldset>
+		<legend> Dados pessoais </legend>
+		<legend> Nome Completo </legend>
+		<input type="text" name="nomecompleto"><br>
+		<legend>Data de nascimento</legend>
+		<input type="date" name="datanascimento"><br>
+		<legend>CPF</legend>
+		<input type="number" name="cpf"><br>
+		<legend>Sexo</legend>
+		<input type="radio" name="sexo"><label>fem</label>
+		<input type="radio" name="sexo"><label>masc</label>
+
+
+		</fieldset>
+
+		<fieldset>
+		<legend>Endereço de entrega</legend>
+		<legend>Cidade</legend><input type="text" name="cidade"><br>
+		<legend>Bairro</legend><input type="text" name="bairro"><br>
+		<legend>Rua</legend><input type="text" name="endereco"><br>
+		<legend>Número</legend><input type="number" name="numero"><br>
+		<legend>Adicional</legend><input type="text" name="adicional"><br>
+		</fieldset>
+
+		<fieldset>
+		<legend>Orçamento</legend>
+		<legend>Qual prato deseja encomendar</legend>
+		<input type="radio" name="prod"><label>Macarronada</label> <br>
+		<input type="radio" name="prod"><label>Lasanha</label> <br>
+		<input type="radio" name="prod"><label>Bruschettas</label> <br>
+		<input type="radio" name="prod"><label>Pizza</label> <br>
+		<input type="radio" name="prod"><label>Nhoque</label> <br>
+		
+		<br>
+		<legend>Adicionais</legend>
+		<input type="checkbox" name="maionese"><label>maionese</label>
+		<input type="checkbox" name="maionese"><label>queijo</label>
+		<input type="checkbox" name="maionese"><label>bacon</label>
+		<input type="checkbox" name="maionese"><label>salada</label>
+		<br>
+		
+		<br>
+		<legend>Quantidade em unidades</legend>
+		<input type="number" name="quant">
+		<br>		
+
+		<br>
+		<legend>Valor</legend>
+		<input type="number" name="preco" step="any">
+		<br>
+		<br>
+		<legend>Forma de pagamento</legend>
+		<input type="radio" name="paga"><label>Dinheiro</label>
+		<input type="radio" name="paga"><label>Cartão de Débito</label>
+		<input type="radio" name="paga"><label>Cartão de Crédito</label>
+		<br>
+		<br>
+		<legend>Porcentagem de desconto desejada</legend>
+		<input type="number" name="desc">
+
+
+		</fieldset>
+
+		<fieldset>
+		<legend>Finalizar pedido</legend>
+		<input type="submit" name="pagar" value="Pagar">
+		<input type="reset" name="recomeçar" value="Recomeçar">
+		</fieldset>
+		
+	</body>

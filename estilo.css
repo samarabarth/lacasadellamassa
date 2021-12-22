@@ -1,0 +1,122 @@
+body{
+	background-color: #FAFAD2;
+	padding: 40px 40px;
+
+}
+
+img.imagens{
+	display: block;
+	max-height: 200px;
+	max-width: 200px;
+	width: auto;
+	height: auto;
+	margin-left: auto;
+	margin-right:  auto;
+	border: thin solid orangered;
+	border-radius: 0px;
+}
+
+img.titulo{
+	display: block;
+	max-height: 100px;
+	max-width: 100px;
+	width: auto;
+	height: auto;
+	margin-left: auto;
+	margin-right:  auto;
+}
+
+img.imagem2{
+	display: block;
+	max-height: 80px;
+	max-width: 80px;
+	width: auto;
+	height: auto;
+	margin-left: auto;
+	margin-right:  auto;
+}
+
+.titulo {
+	color: white;
+	background-color: orangered;
+  	padding: 16px;
+  	text-align: center;
+ 	font-size: 40px;
+ }
+
+ .titulo2{
+ 	background-color: orangered;
+ 	padding: 15px;
+ 	text-align: center;
+ 	font-size: 25px;
+
+ }
+
+
+.produtos ul{
+	display: inline;
+	padding: 2px 40px;
+}
+
+}
+.menu ul{
+	padding:  0px;
+	margin: 20px;
+	list-style: none;
+	width: 900px;
+	
+}
+.menu ul li{
+	display: inline;
+}
+.menu ul li a{
+	padding: 2px 40px;
+	display:  inline-block;
+	color: white;
+	text-decoration: underline;
+	border-bottom: 2px solid #edede;
+	font-size: 10;
+	
+}
+.menu ul li a:hover{
+	color: orange;
+}
+
+img.logo {
+	display: block;
+	max-height: 40px;
+	max-width: 40px;
+	
+}
+
+}
+.menu1 ul{
+	padding:  0px;
+	margin: 20px;
+	list-style: none;
+	width: 900px;
+	
+}
+.menu1 ul li{
+	display: inline;
+}
+.menu1 ul li a{
+	padding: 2px 40px;
+	display:  inline-block;
+	color: orangered;
+	text-decoration: underline;
+	border-bottom: 2px solid #edede;
+	font-size: 10;
+	
+}
+.menu1 ul li a:hover{
+	color: orange;
+}
+
+.sobrenos {
+	color: orangered;
+  	text-align: center;
+ 	font-size: 30px;
+
+}
+
